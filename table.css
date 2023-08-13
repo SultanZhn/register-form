@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.add{
+    width: 85%;
+    margin: 0 auto;
+}
+.add-table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+
+.add-table tr:nth-child(odd){
+    background-color: #c7dbd2 ;
+}
+.add-table tr:nth-child(even){
+    background-color: #d1e7dd;
+}
+.add-table th{
+    padding: 10px 8px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: middle;
+    border: 2px solid #fff;
+}
+.add-table td{
+    padding: 10px 8px;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+.school_raion_links a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.add-table-links a{
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
